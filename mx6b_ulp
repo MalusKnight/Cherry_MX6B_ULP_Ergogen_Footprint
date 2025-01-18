@@ -1,3 +1,5 @@
+# Footprint is for the Cherry MX6C-T3NB/K3NB
+
 module.exports = {
     params: {
       designator: 's',
