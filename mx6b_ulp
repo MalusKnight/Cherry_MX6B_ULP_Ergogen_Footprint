@@ -24,7 +24,7 @@ module.exports = {
     },
     body: p => {
       const common_top = `
-        (footprint "mx6c_ulp" (version 20221018) (generator pcbnew)
+        (footprint "Cherry_ULP_SMD" (version 20221018) (generator pcbnew)
           (layer "F.Cu")
           ${p.at}
           (attr smd)
@@ -39,7 +39,7 @@ module.exports = {
                 )
               )
             )
-          (fp_text value "mx6c_ulp" (at 0 0 unlocked) (layer "F.Fab")
+          (fp_text value "Cherry_ULP_SMD" (at 0 0 unlocked) (layer "F.Fab")
               (effects (font (size 1 1) (thickness 0.15)))
           )
           (fp_rect (start -7.1 -6.4) (end 7.1 6.4)
